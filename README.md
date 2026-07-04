@@ -8,13 +8,11 @@ A [Hermes Agent](https://hermes-agent.nousresearch.com) skill to connect to Auto
 hermes skills install wyuebei-cloud/autodesk-product-help-mcp
 ```
 
-Then add the MCP server to `~/.hermes/config.yaml`:
+Then use the CLI to add the MCP server:
 
-```yaml
-mcp_servers:
-  autodesk-product-help:
-    enabled: true
-    url: https://developer.api.autodesk.com/knowledge/public/v1/mcp
+```bash
+printf "n\ny\n" | hermes mcp add autodesk-product-help \
+  --url "https://developer.api.autodesk.com/knowledge/public/v1/mcp"
 ```
 
 Restart Hermes or type `/reload-mcp` in a session.

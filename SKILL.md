@@ -129,7 +129,7 @@ Call `get_available_products()` for the living catalog — product names and rel
 
 ## Pitfalls
 
-1. **MCP not injected mid-session**: After adding the MCP to config.yaml, run `/reload-mcp` in an active chat session to see the tools. Or restart Hermes.
+1. **MCP not injected mid-session**: After adding the MCP server, run `/reload-mcp` in an active chat session to see the tools. Or restart Hermes.
 2. **Wrong locale**: Use full locale codes (`en_US`), not short codes (`ENU`). The latter causes `INVALID_ARGUMENTS`.
 3. **Plural parameter names**: `product_codes`, `release_codes`, `page_size` are not valid. Use singular `product_code`, `release_code`.
 4. **Product name mismatch**: The `product_name` must match exactly what `get_available_products` returns (e.g. `Civil 3D`, not `Civil3D` or `C3D`).
