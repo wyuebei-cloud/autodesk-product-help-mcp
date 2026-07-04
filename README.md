@@ -1,5 +1,7 @@
 # Autodesk Product Help MCP
 
+[![skills.sh](https://skills.sh/b/wyuebei-cloud/autodesk-product-help-mcp)](https://skills.sh/wyuebei-cloud/autodesk-product-help-mcp)
+
 A [Hermes Agent](https://hermes-agent.nousresearch.com) skill to connect to Autodesk's official Product Help MCP server — providing real-time documentation search across AutoCAD, Civil 3D, Revit, Inventor, Fusion, and 150+ Autodesk products.
 
 ## Install

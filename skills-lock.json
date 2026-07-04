@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "autodesk-product-help-mcp": {
+      "source": "wyuebei-cloud/autodesk-product-help-mcp",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "aacc8931b5ed230d59ac34e36bd6acc80ee3bd8ead515790e237a285b2aead37"
+    }
+  }
+}
