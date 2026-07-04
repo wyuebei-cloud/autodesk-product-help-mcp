@@ -26,25 +26,18 @@ No API key or authentication required.
 
 ## Configuration
 
-### Option A: Direct config.yaml (Recommended)
-
-Add to `~/.hermes/config.yaml`:
-
-```yaml
-mcp_servers:
-  autodesk-product-help:
-    enabled: true
-    url: https://developer.api.autodesk.com/knowledge/public/v1/mcp
-```
-
-Then restart Hermes, or in an active session run `/reload-mcp` to inject the tools immediately.
-
-### Option B: CLI
+### Via Hermes CLI (Recommended)
 
 ```bash
 printf "n\ny\n" | hermes mcp add autodesk-product-help \
   --url "https://developer.api.autodesk.com/knowledge/public/v1/mcp"
 ```
+
+Then in an active session run `/reload-mcp` to inject the tools immediately, or restart Hermes.
+
+### Via Hermes Desktop
+
+Open **Settings > MCP Servers**, add a new server with name `autodesk-product-help` and URL `https://developer.api.autodesk.com/knowledge/public/v1/mcp`.
 
 ## Available Tools
 
